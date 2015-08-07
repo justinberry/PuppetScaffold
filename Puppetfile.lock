@@ -1,0 +1,26 @@
+FORGE
+  remote: https://forgeapi.puppetlabs.com
+  specs:
+    puppetlabs-nodejs (0.8.0)
+      puppetlabs-stdlib (< 5.0.0, >= 2.2.1)
+    puppetlabs-stdlib (4.7.0)
+
+GIT
+  remote: git://github.com/gildas/puppet-homebrew.git
+  ref: master
+  sha: cd85d0e65e253cb2ac3ae2a421dd8cd2be200689
+  specs:
+    gildas-homebrew (0.4.16)
+
+GIT
+  remote: git://github.com/puppetlabs/hiera.git
+  ref: v0.3.0
+  sha: e58a5168502454246cd6072d423731924d11c73a
+  specs:
+    puppet-hiera (0.0.1)
+
+DEPENDENCIES
+  gildas-homebrew (>= 0)
+  puppet-hiera (>= 0)
+  puppetlabs-nodejs (>= 0)
+
