@@ -20,3 +20,14 @@ package { 'ionic':
   ensure   => 'present',
   provider => 'npm',
 }
+
+package { 'gulp':
+  ensure   => 'present',
+  provider => 'npm',
+}
+
+package { 'ios-sim':
+  ensure   => 'present',
+  provider => 'npm',
+}
+
