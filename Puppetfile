@@ -6,5 +6,3 @@ mod 'gildas-homebrew',
 mod 'puppet-hiera',
   :git => "git://github.com/puppetlabs/hiera.git",
   :ref => 'v0.3.0'
-
-mod 'puppetlabs-nodejs'
